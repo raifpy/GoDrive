@@ -1,0 +1,33 @@
+<!--template.html-->
+<html>
+    <head>
+        <meta charset="UTF8"/>
+        <title>{{.PublicName}} GoDrive</title>
+    </head>
+<body>
+    
+    <link rel="stylesheet" href="style.css">
+    <h1><span class="blue">&lt;</span>GoDrive<span class="blue">&gt;</span> <span class="yellow">{{.PublicName}}</span></h1>
+        <table class="container">
+            <thead>
+                <tr>
+                    <th><h1>File</h1></th>
+                    <th><h1>MimeType</h1></th>
+                    <th><h1>Size</h1></th>
+                </tr>
+            </thead>
+            <tbody>
+                {{range .Tbody}}
+                <tr onclick='location.href = "{{.Href}}" '>
+                    <td>{{.Name}}</td>
+                    <td>{{.Mime}}</td>
+                    <td>{{.Size}}</td>
+                </tr>
+                {{end}}
+            </tbody>
+        </table>
+</body>
+</html>
+
+<!--@Codeksion 2021 ~ github.com/codeksion/goDrive? -->
+<!--Template: https://codepen.io/heypablete/full/qdIsm-->
