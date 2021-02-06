@@ -1,0 +1,15 @@
+{
+    "PublicName":"raifpy's Docs",
+    "CredentialsPath":"credentials.json",
+    "DailyIPLimit":1000,
+    "SameIPCantInstallMultiFiles":true,
+    
+    "EnableBlockDownloadAfterDownload":false,
+    "BlockDownloadAfterDownloadMin":10,
+    
+    "UploadDownoadLimit_Byte":5120000,
+    "ShowLogs":true,
+    "SaveLogs":true,
+    "RoutePort":":6070"
+
+}
