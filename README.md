@@ -1,5 +1,5 @@
 # GoDriver
-Google Drive Client like walkers
+Google Drive Client like workers
 
 # Setup
 
